@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+#title {
+  text-align: center;
+}
+
+#img-div {
+  background-color: white;
+  margin: 1% 5%;
+  padding: 3% 10% 1%;
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+}
+
+#timeline {
+  text-align: justify;
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+footer {
+  margin: 5px 15%;
+  text-align: center;
+}

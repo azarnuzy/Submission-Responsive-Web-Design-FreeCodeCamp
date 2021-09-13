@@ -1,0 +1,108 @@
+.menu {
+  background-color: #be3144;
+}
+
+#navbar a {
+  color: white;
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #202023;
+}
+
+#welcome-section {
+  color: white;
+  height: 100vh;
+}
+
+#welcome-section h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+#welcome-section span {
+  color: #be3144;
+  font-size: 2.2rem;
+}
+
+main {
+  background-color: #45567d;
+  color: white;
+}
+
+.title {
+  padding-top: 50px;
+}
+
+.title > h3 > span {
+  letter-spacing: 2;
+}
+
+.project-tile a {
+  text-decoration: none;
+}
+
+.project-title:hover::before {
+  content: "<";
+  opacity: 1;
+  color: #ff7f50;
+}
+
+.project-title:hover::after {
+  content: "/>";
+  opacity: 1;
+  color: #ff7f50;
+}
+
+.btn {
+  background-color: #303841;
+  color: white;
+  transition: 0.3s;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.show-all {
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #303841;
+  padding-bottom: 50px;
+}
+
+.closing-desc h1 {
+  margin-top: 50px;
+  font-size: 46px;
+}
+
+.closing-desc span {
+  font-size: 23px;
+}
+
+#profile-link {
+  margin-top: 30px;
+}
+
+#profile-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 20px 20px;
+  transition: 0.3s;
+}
+
+#profile-link a:hover {
+  padding: 5px 20px;
+}
+
+#copyright {
+  margin: 30px 50px 0px;
+  padding-bottom: 50pxs;
+}

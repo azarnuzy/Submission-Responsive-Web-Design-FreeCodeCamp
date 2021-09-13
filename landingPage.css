@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  margin: 0 50px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+}
+
+#header {
+  display: block;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 60vw;
+  max-width: 300px;
+}
+
+#nav-bar ul li {
+  list-style-type: none;
+  float: right;
+  margin: 0px 20px 0;
+}
+
+#nav-bar ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #f1c40f;
+  border: 0px solid #eee;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#email {
+  margin-bottom: 10px;
+}
+
+/* .desc {
+  max-width: 600px;
+} */
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 0;
+  }
+
+  .logo {
+    float: unset;
+    text-align: center;
+  }
+
+  #nav-bar ul li {
+    float: none;
+  }
+
+  #nav-bar ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  #nav-bar ul li a {
+    font-size: 3vw;
+  }
+
+  .title h3 {
+    font-size: 4vw;
+    margin: 0 0 2vh;
+  }
+}
